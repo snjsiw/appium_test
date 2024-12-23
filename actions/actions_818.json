@@ -1,0 +1,185 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.tencent.tim.SplashActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.tencent.tim",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 7669,
+        "wakeupAfterNSecondsofsleep": 4556,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity16",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element538']",
+                    "action": "ZOOM_IN",
+                    "throttle": 584
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1060,
+                    "text": "立即购买"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "CLICK",
+                    "throttle": 1733
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2419
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SCROLL",
+                    "throttle": 1239
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity931",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element788']",
+                    "action": "LONG_CLICK",
+                    "throttle": 2366
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "LONG_CLICK",
+                    "throttle": 2473
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SCROLL",
+                    "throttle": 2811
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SWIPE",
+                    "throttle": 1168
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity257",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1103,
+                    "text": "恢复"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 2608
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2057,
+                    "text": "重置"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1359,
+                    "text": "绑定"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2222
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1841
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "CLICK",
+                    "throttle": 1471
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DRAG",
+                    "throttle": 2694
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SWIPE",
+                    "throttle": 2365
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "DRAG",
+                    "throttle": 2663
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SWIPE",
+                    "throttle": 2649
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DRAG",
+                    "throttle": 1463
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2788
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "LONG_CLICK",
+                    "throttle": 691
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "CLICK",
+                    "throttle": 2910
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 520
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,393 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.lovewith.lovewith.DetailActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.shibaqiang.app757",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 8003,
+        "wakeupAfterNSecondsofsleep": 3679,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity411",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SWIPE",
+                    "throttle": 501
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2935
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2299
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DRAG",
+                    "throttle": 2189
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.lovewith.lovewith.DetailActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element721']",
+                    "action": "CLICK",
+                    "throttle": 2496
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element877']",
+                    "action": "INPUTTEXT",
+                    "throttle": 534,
+                    "text": "选择文件"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element264']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2211
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 852
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SCROLL",
+                    "throttle": 1720
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity967",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SWIPE",
+                    "throttle": 2594
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SWIPE",
+                    "throttle": 1959
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1760,
+                    "text": "重试"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element85']",
+                    "action": "SWIPE",
+                    "throttle": 1108
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1092
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2378
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_IN",
+                    "throttle": 1052
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SWIPE",
+                    "throttle": 1000
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2056
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2370,
+                    "text": "开启"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element979']",
+                    "action": "SWIPE",
+                    "throttle": 1060
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SWIPE",
+                    "throttle": 2536
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element181']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1980
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 892
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1334
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SWIPE",
+                    "throttle": 1987
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1638,
+                    "text": "恢复"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1414
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SCROLL",
+                    "throttle": 1489
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity619",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2418
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1595
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1519
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2445
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element932']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2813,
+                    "text": "拒绝"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2309
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1994
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity233",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SWIPE",
+                    "throttle": 2210
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 875
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity72",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SCROLL",
+                    "throttle": 2597
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element490']",
+                    "action": "CLICK",
+                    "throttle": 857
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "CLICK",
+                    "throttle": 2458
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity207",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SWIPE",
+                    "throttle": 2742
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1708
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DRAG",
+                    "throttle": 1315
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SWIPE",
+                    "throttle": 1628
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "CLICK",
+                    "throttle": 879
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "LONG_CLICK",
+                    "throttle": 2574
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DRAG",
+                    "throttle": 2458
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1040
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DRAG",
+                    "throttle": 1135
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "CLICK",
+                    "throttle": 1105
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "CLICK",
+                    "throttle": 2822
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element788']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2537,
+                    "text": "拒绝"
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity903",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1530,
+                    "text": "安装"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SCROLL",
+                    "throttle": 869
+                }
+            ]
+        }
+    ]
+}

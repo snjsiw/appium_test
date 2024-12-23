@@ -1,0 +1,74 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.emanuelef.remote_capture.activities.Activity505",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.tencent.tim",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 7730,
+        "wakeupAfterNSecondsofsleep": 6041,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1002,
+                    "text": "返回"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "LONG_CLICK",
+                    "throttle": 585
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 2730
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SWIPE",
+                    "throttle": 609
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2650
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity320",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element928']",
+                    "action": "SWIPE",
+                    "throttle": 1631
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1196,
+                    "text": "删除"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SCROLL",
+                    "throttle": 1054
+                }
+            ]
+        }
+    ]
+}

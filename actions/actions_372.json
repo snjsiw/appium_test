@@ -1,0 +1,31 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.tencent.tim.SplashActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.segmentfault.app",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 8819,
+        "wakeupAfterNSecondsofsleep": 6676,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element214']",
+                    "action": "LONG_CLICK",
+                    "throttle": 757
+                }
+            ]
+        }
+    ]
+}

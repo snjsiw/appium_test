@@ -1,0 +1,63 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.segmentfault.app.SettingsActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "cn.jiangemian.client",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 9385,
+        "wakeupAfterNSecondsofsleep": 4029,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.lovewith.lovewith.DetailActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element568']",
+                    "action": "ZOOM_IN",
+                    "throttle": 1348
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1945
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element493']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1364,
+                    "text": "开始"
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity707",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SCROLL",
+                    "throttle": 1590
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "SWIPE",
+                    "throttle": 2980
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SCROLL",
+                    "throttle": 2396
+                }
+            ]
+        }
+    ]
+}

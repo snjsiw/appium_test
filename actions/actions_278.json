@@ -1,0 +1,182 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.emanuelef.remote_capture.activities.Activity556",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "cn.jiangemian.client",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 9217,
+        "wakeupAfterNSecondsofsleep": 3200,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity245",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element155']",
+                    "action": "SWIPE",
+                    "throttle": 1587
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1682,
+                    "text": "完成"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 526
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element156']",
+                    "action": "ZOOM_IN",
+                    "throttle": 756
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.segmentfault.app.SettingsActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2154
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element431']",
+                    "action": "CLICK",
+                    "throttle": 2097
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity666",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "SCROLL",
+                    "throttle": 1479
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element302']",
+                    "action": "SWIPE",
+                    "throttle": 2315
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 2605
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity175",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element684']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2969,
+                    "text": "查看详情"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "CLICK",
+                    "throttle": 1827
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 1287,
+                    "text": "接收"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element831']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1789
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity50",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1621
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.lovewith.lovewith.DetailActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element270']",
+                    "action": "LONG_CLICK",
+                    "throttle": 2387
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_IN",
+                    "throttle": 2920
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_IN",
+                    "throttle": 1101
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SWIPE",
+                    "throttle": 1568
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "INPUTTEXT",
+                    "throttle": 781,
+                    "text": "解绑"
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element986']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 2124
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2234,
+                    "text": "下载"
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "DRAG",
+                    "throttle": 1132
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element40']",
+                    "action": "CLICK",
+                    "throttle": 545
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.lovewith.lovewith.DetailActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.mornningtime.clighten",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 9397,
+        "wakeupAfterNSecondsofsleep": 5764,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity761",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element654']",
+                    "action": "CLICK",
+                    "throttle": 2372
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "DRAG",
+                    "throttle": 1332
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element180']",
+                    "action": "INPUTTEXT",
+                    "throttle": 2835,
+                    "text": "完成"
+                }
+            ]
+        }
+    ]
+}

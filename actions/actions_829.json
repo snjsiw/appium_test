@@ -1,0 +1,88 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.tencent.tim.SplashActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.segmentfault.app",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 8533,
+        "wakeupAfterNSecondsofsleep": 5941,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity124",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element49']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1817
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element219']",
+                    "action": "SCROLL",
+                    "throttle": 2936
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.emanuelef.remote_capture.activities.Activity661",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DRAG",
+                    "throttle": 2828
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element788']",
+                    "action": "LONG_CLICK",
+                    "throttle": 1388
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SWIPE",
+                    "throttle": 566
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity257",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element545']",
+                    "action": "SCROLL",
+                    "throttle": 1409
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element538']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2087
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element545']",
+                    "action": "SWIPE",
+                    "throttle": 1067
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element373']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2563
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "CLICK",
+                    "throttle": 1086
+                }
+            ]
+        }
+    ]
+}

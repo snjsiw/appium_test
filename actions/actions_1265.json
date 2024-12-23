@@ -1,0 +1,98 @@
+{
+    "capabilityDescription": "",
+    "capability": {
+        "appActivity": "com.tencent.tim.SplashActivity",
+        "appium": "http://127.0.0.1:4723/wd/hub",
+        "noReset": "true",
+        "dontStopAppOnReset": "false",
+        "appPackage": "com.shibaqiang.app52",
+        "fullReset": "false"
+    },
+    "max": {
+        "startAfterNSecondsofsleep": 8116,
+        "wakeupAfterNSecondsofsleep": 6054,
+        "takeScreenShot": false,
+        "savePageSource": false,
+        "saveCurrentEventPoint": false
+    },
+    "activities": [
+        {
+            "prob": 1,
+            "activity": "com.lovewith.lovewith.DetailActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "SCROLL",
+                    "throttle": 1994
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_IN",
+                    "throttle": 750
+                },
+                {
+                    "xpath": "//*[@class='android.widget.EditText' and @text='搜索应用']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1321
+                },
+                {
+                    "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                    "action": "DOUBLE_CLICK",
+                    "throttle": 1836
+                },
+                {
+                    "xpath": "//*[@class='android.widget.TextView' and @text='com.example.b12']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 2564
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.shibaqiang.forum.Activity906",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 771
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/bbb']",
+                    "action": "SCROLL",
+                    "throttle": 1016
+                }
+            ]
+        },
+        {
+            "prob": 1,
+            "activity": "com.tencent.tim.SplashActivity",
+            "actions": [
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element745']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 910
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element860']",
+                    "action": "LONG_CLICK",
+                    "throttle": 2884
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element460']",
+                    "action": "ZOOM_OUT",
+                    "throttle": 1842
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element463']",
+                    "action": "CLICK",
+                    "throttle": 1719
+                },
+                {
+                    "xpath": "//*[@resource-id='com.xxx.go:id/element40']",
+                    "action": "DRAG",
+                    "throttle": 2804
+                }
+            ]
+        }
+    ]
+}

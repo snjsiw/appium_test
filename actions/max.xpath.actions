@@ -1,0 +1,114 @@
+[
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_filter_switch']",
+                "action": "CLICK",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/search_src_text']",
+                "index": 0,
+                "action": "CLICK",
+                "args":"260,300",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/search_src_text']",
+                "index": 0,
+                "action": "INPUTTEXT",
+                "args":"260,300",
+                "text": "com.example.b12",
+                "throttle": 3000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/app_package']",
+                "index": 1,
+                "action": "CLICK",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/dump_mode_spinner']",
+                "action": "CLICK",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@class='android.widget.TextView' and@text='在设备存储中创建一个PCAP文件']",
+                "index": 1,
+                "action": "CLICK",
+                "args":"400,1200",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.emanuelef.remote_capture.activities.MainActivity",
+        "actions": [
+            {
+                "xpath": "//*[@resource-id='com.emanuelef.remote_capture:id/action_start']",
+                "action": "CLICK",
+                "throttle": 1000
+            }
+
+        ]
+    }
+,
+    {
+        "prob": 1,
+        "activity": "com.android.documentsui.picker.PickActivity",
+        "actions": [
+            {
+                "xpath": "//*[resource-id='android:id/button1']",
+                "action": "CLICK",
+                "throttle": 1000
+            }
+
+        ]
+    }
+
+]
